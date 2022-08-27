@@ -1,0 +1,35 @@
+.container{
+   display: flex;
+   
+   justify-content: center;
+   justify-items: center; 
+   background:rgb(30, 21, 3);
+   border: 1px solid black;
+
+}
+.Menu{
+    background:rgb(30, 21, 3);
+    padding: 10px;
+    margin: 3px;
+
+
+}
+.sub-menu{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.li{
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+.li:hover{
+    color: rgb(215, 149, 25);
+}
